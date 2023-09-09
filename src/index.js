@@ -10,8 +10,8 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route component={NotFound} path="**" />
-        <Route component={Home} exact path="/" />
+      <Route component={Home} exact path="/" />
+       
       </div>
     </Router>
   )
