@@ -11,7 +11,6 @@ const App = () => {
     <Router>
       <div>
       <Route component={Home} exact path="/" />
-       
       </div>
     </Router>
   )

@@ -12,7 +12,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Quran connect</title>
+        <title>Medica template</title>
         <meta property="og:title" content="Medica template" />
       </Helmet>
       <div data-modal="practices" className="home-modal">
@@ -190,7 +190,7 @@ const Home = (props) => {
               <div className="home-container01">
                 <img
                   alt="image"
-                  src="/Branding/logo-1500h.png"
+                  src="/image_2023-09-01_153343781-1500h.png"
                   className="home-image08"
                 />
                 <div data-thq="thq-close-menu" className="home-menu-close">
@@ -204,17 +204,41 @@ const Home = (props) => {
                 data-role="Nav"
                 className="home-nav1"
               >
-                <span className="home-text008">Features</span>
-                <span className="home-text009">How it works</span>
-                <span className="home-text010">Prices</span>
-                <span className="home-text011">Contact</span>
-                <a href="#book" className="home-book1 button button-main">
+                <a href="#home" className="home-text008">
+                  Home
+                </a>
+                <a href="#cources" className="home-link03">
+                  Cources
+                </a>
+                <a href="#pricing" className="home-link04">
+                  Prices
+                </a>
+                <a href="#pricing" className="home-link05">
+                  <span>
+                    Enroll
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>now</span>
+                </a>
+                <a href="#footer" className="home-link06">
+                  Contact
+                </a>
+                <a
+                  href="https://wa.me/+923274540905"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-book1 button button-main"
+                >
                   <img
                     alt="image"
-                    src="/Icons/calendar.svg"
+                    src="/icons8-whatsapp.svg"
                     className="home-image09"
                   />
-                  <span className="home-text012">Book an appointment</span>
+                  <span className="home-text011">Chat on Whatsapp</span>
                 </a>
               </nav>
             </div>
@@ -222,7 +246,7 @@ const Home = (props) => {
         </header>
         <div className="home-main">
           <div className="home-content">
-            <div className="home-heading07">
+            <div id="home" className="home-heading07">
               <h1 className="home-header07">Welcome to Quran Connect</h1>
               <p className="home-caption6">Get Free 3 Days Trial</p>
             </div>
@@ -238,15 +262,15 @@ const Home = (props) => {
           <div className="home-image11">
             <img
               alt="image"
-              src="/whatsapp%20image%202023-09-05%20at%2014.17.53-900w.jpg"
+              src="/image%20main%20-500w.jpg"
               className="home-image12"
             />
           </div>
         </div>
         <div className="home-background"></div>
-        <h2 className="home-text014">Cources</h2>
+        <h2 className="home-text013">Cources</h2>
       </section>
-      <section className="home-practices1">
+      <section id="cources" className="home-practices1">
         <div className="home-content1">
           <div className="home-grid1">
             <Link to="/">
@@ -258,8 +282,8 @@ const Home = (props) => {
               <div className="home-practice-wrapper1">
                 <Practice
                   Title="Quran Reading"
-                  Description="It is duty of every Muslim to read the Holy Quran with Tajweed rules. Our online Quran Reading Course is desinged for both kids and adults of all ages and genders. This course is developed for the students who have just completed Noorani Qaida course and can read Quran but are not fluent in reading and want to improve their reading skills. Quran Reading course will provide practice in order to enhance student’s confidence while applying methods which were taught in Qaida course. Our teacher will ensure that student finishes the full Quran reading"
                   image_src="https://www.equranschool.com/images/quran-course.jpg"
+                  Description="It is duty of every Muslim to read the Holy Quran with Tajweed rules. Our online Quran Reading Course is desinged for both kids and adults of all ages and genders. This course is developed for the students who have just completed Noorani Qaida course and can read Quran but are not fluent in reading and want to improve their reading skills. Quran Reading course will provide practice in order to enhance student’s confidence while applying methods which were taught in Qaida course. Our teacher will ensure that student finishes the full Quran reading"
                 ></Practice>
               </div>
             </Link>
@@ -267,8 +291,8 @@ const Home = (props) => {
               <div className="home-practice-wrapper2">
                 <Practice
                   Title="Quran Memorization"
-                  Description="We have arranged online Hifz program for kids and adults (male and females) with our online Hifz tutors. Our course is for all ages and genders. Some parents think that memorizing the Quran with the rules of Tajweed is very difficult. Obviously it’s not an easy task, there are more than six thousand verses in the Quran, but with help of our expert online Quran teachers your kid will be able to achieve the goal in an easy and way. Your kid have to concentrate on the lesson and it will gradually lead to the final destination."
                   image_src="https://www.equranschool.com/images/hifz-ul-quran-course.jpg"
+                  Description="We have arranged online Hifz program for kids and adults (male and females) with our online Hifz tutors. Our course is for all ages and genders. Some parents think that memorizing the Quran with the rules of Tajweed is very difficult. Obviously it’s not an easy task, there are more than six thousand verses in the Quran, but with help of our expert online Quran teachers your kid will be able to achieve the goal in an easy and way. Your kid have to concentrate on the lesson and it will gradually lead to the final destination."
                 ></Practice>
               </div>
             </Link>
@@ -276,8 +300,8 @@ const Home = (props) => {
               <div className="home-practice-wrapper3">
                 <Practice
                   Title="Quran Translation"
-                  Description="We have designed translation of Quran Course for male and female students who want to learn to translate Quran with the help of experienced online Quran tutors. Our course is for all ages and genders. Some parents think that learning translation is very difficult, but it is not the case. It’s very easy. You just need to concentrate on meanings and it gradually leads you to the final destination."
                   image_src="https://www.equranschool.com/images/quran-translation-course.jpg"
+                  Description="We have designed translation of Quran Course for male and female students who want to learn to translate Quran with the help of experienced online Quran tutors. Our course is for all ages and genders. Some parents think that learning translation is very difficult, but it is not the case. It’s very easy. You just need to concentrate on meanings and it gradually leads you to the final destination."
                 ></Practice>
               </div>
             </Link>
@@ -285,8 +309,8 @@ const Home = (props) => {
               <div className="home-practice-wrapper4">
                 <Practice
                   Title="Rules of Tajweed"
-                  Description="This course is designed for the students who already completed Quran Reading course and can read Quran but want to improve their tajweed skills. This course will provide practice in order to enhance student’s confidence while applying tajweed rules which were taught in basic level course. One of the main principles of fluent Quranic reading is repetition and lot of practice. All Basic tajweed rules will be covered along with reading practice."
                   image_src="https://www.equranschool.com/images/rules-of-tajweed-course.jpg"
+                  Description="This course is designed for the students who already completed Quran Reading course and can read Quran but want to improve their tajweed skills. This course will provide practice in order to enhance student’s confidence while applying tajweed rules which were taught in basic level course. One of the main principles of fluent Quranic reading is repetition and lot of practice. All Basic tajweed rules will be covered along with reading practice."
                 ></Practice>
               </div>
             </Link>
@@ -294,8 +318,8 @@ const Home = (props) => {
               <div className="home-practice-wrapper5">
                 <Practice
                   Title="Islamic studies for Kids"
-                  Description="Islam is the religion of peace. It teaches us to live a good daily life, in obedience to the laws of Allah. Before being a practicing muslim we should know the basic teachings of Islam. Muslim children should know good things which are called halal and bad things which are called haram so that they can implement them in their lives for a better life. We have designed Islamic Studies for Kids Course for the children who want to know fundamental teachings of Islam. All Muslim children need to learn the obligatory knowledge of Islam. How should we live and how to avoid sin to live a pure life. EQuran School makes it possible for a Muslim family to come and learn the Quran and understandt Islam."
                   image_src="https://www.equranschool.com/images/islamic-studies-for-kids-course.jpg"
+                  Description="Islam is the religion of peace. It teaches us to live a good daily life, in obedience to the laws of Allah. Before being a practicing muslim we should know the basic teachings of Islam. Muslim children should know good things which are called halal and bad things which are called haram so that they can implement them in their lives for a better life. We have designed Islamic Studies for Kids Course for the children who want to know fundamental teachings of Islam. All Muslim children need to learn the obligatory knowledge of Islam. How should we live and how to avoid sin to live a pure life. EQuran School makes it possible for a Muslim family to come and learn the Quran and understandt Islam."
                 ></Practice>
               </div>
             </Link>
@@ -306,65 +330,61 @@ const Home = (props) => {
         <div className="home-heading08">
           <h2 className="home-header08">Why choose us</h2>
           <p className="home-header09">
-            <span className="home-text015">Quality Education</span>
-            <br className="home-text016"></br>
-            <span className="home-text017">
+            <span className="home-text014">Quality Education</span>
+            <br className="home-text015"></br>
+            <span className="home-text016">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br className="home-text018"></br>
-            <span className="home-text019">
+            <br className="home-text017"></br>
+            <span className="home-text018">
               Our courses are crafted to provide a high-quality learning
               experience. Your child will be guided by experienced instructors
               who are passionate about teaching the Quran.
             </span>
             <br></br>
+            <br className="home-text020"></br>
             <br className="home-text021"></br>
-            <br className="home-text022"></br>
-            <span className="home-text023">Global Community</span>
+            <span className="home-text022">Global Community</span>
+            <br className="home-text023"></br>
             <br className="home-text024"></br>
-            <br className="home-text025"></br>
-            <span className="home-text026">
+            <span className="home-text025">
                We believe in the power of a global community. Students from all
               corners of the world come together to learn, share, and grow
               spiritually.
             </span>
             <br></br>
-            <br className="home-text028"></br>
+            <br className="home-text027"></br>
             <br></br>
-            <br className="home-text030"></br>
-            <span className="home-text031">Three Days Free Trial</span>
+            <br className="home-text029"></br>
+            <span className="home-text030">Three Days Free Trial</span>
+            <br className="home-text031"></br>
             <br className="home-text032"></br>
-            <br className="home-text033"></br>
-            <span className="home-text034">
+            <span className="home-text033">
               We understand that making the right choice for your child&apos;s
               education is essential. That&apos;s why we offer a three-day free
               trial for every course. No strings attached. No commitments.
             </span>
             <br></br>
-            <br className="home-text036"></br>
+            <br className="home-text035"></br>
             <br></br>
-            <br className="home-text038"></br>
-            <span className="home-text039">Flexible Learning</span>
+            <br className="home-text037"></br>
+            <span className="home-text038">Flexible Learning</span>
+            <br className="home-text039"></br>
             <br className="home-text040"></br>
-            <br className="home-text041"></br>
-            <span className="home-text042">
+            <span className="home-text041">
               Life can be busy. We offer flexible schedules so your child can
               learn at their own pace, making it easier to balance Quranic
               studies with other commitments.
             </span>
           </p>
         </div>
-        <div className="home-content2">
-          <div className="home-video"></div>
-          <div className="home-caption7"></div>
-        </div>
       </section>
       <section id="schedule" className="home-schedule">
-        <div className="home-content3">
+        <div className="home-content2">
           <div className="home-header10">
             <h2 className="home-heading09">Our Classes are 1 to 1</h2>
           </div>
@@ -380,7 +400,7 @@ const Home = (props) => {
       </section>
       <section className="home-meet">
         <div className="home-heading10">
-          <h2 className="home-text044">
+          <h2 className="home-text043">
             <span>See our previous reviews</span>
             <br></br>
           </h2>
@@ -434,7 +454,8 @@ const Home = (props) => {
       <div className="home-download"></div>
       <section id="book" className="home-book3">
         <div className="home-heading11">
-          <h2 className="home-text047">Book an appointment</h2>
+          <h2 className="home-text046">Book an appointment</h2>
+          <span>Kindly fill out this form </span>
         </div>
         <div className="home-div">
           <Script
@@ -469,8 +490,8 @@ const Home = (props) => {
             <div className="home-lower">
               <div className="home-button"></div>
               <p className="home-text048">
-                Thank you for your interest . We will contact you as soon as
-                possible!
+                Thank you for your interest. fill out the above form. We will
+                contact you as soon as possible!
               </p>
             </div>
           </div>
@@ -490,7 +511,7 @@ const Home = (props) => {
             <div className="home-container04">
               <span className="home-text054">3 Days Trial</span>
             </div>
-            <a href="#book" className="home-link03 button">
+            <a href="#book" className="home-link07 button">
               GET NOW
             </a>
           </div>
@@ -516,7 +537,7 @@ const Home = (props) => {
                 <span>for second sibling</span>
               </span>
             </div>
-            <a href="#book" className="home-link04 button">
+            <a href="#book" className="home-link08 button">
               DEAL 1
             </a>
           </div>
@@ -539,7 +560,7 @@ const Home = (props) => {
               <span className="home-text077">40$/Month</span>
               <span> for second sibling</span>
             </span>
-            <a href="#book" className="home-link05 button">
+            <a href="#book" className="home-link09 button">
               DEAL 3
             </a>
           </div>
@@ -559,7 +580,7 @@ const Home = (props) => {
               <span className="home-text087">50$/Month </span>
               <span>for second sibling</span>
             </span>
-            <a href="#book" className="home-link06 button">
+            <a href="#book" className="home-link10 button">
               DEAL 3
             </a>
           </div>
@@ -579,7 +600,7 @@ const Home = (props) => {
               <span className="home-text097">60$/Month</span>
               <span> for second sibling</span>
             </span>
-            <a href="#book" className="home-link07 button">
+            <a href="#book" className="home-link11 button">
               <span>
                 <span>DEAL 4</span>
                 <br></br>
@@ -588,7 +609,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-footer">
+      <div id="footer" className="home-footer">
         <div className="home-left1">
           <div className="home-brand">
             <img
@@ -642,25 +663,31 @@ const Home = (props) => {
           <div className="home-list1">
             <span className="home-header11">Menu</span>
             <div className="home-links1">
-              <span className="home-link10">Home</span>
-              <span className="home-link11">Cources</span>
-              <span className="home-link12">Free </span>
+              <a href="#home" className="home-link14">
+                Home
+              </a>
+              <a href="#cources" className="home-link15">
+                Cources
+              </a>
+              <a href="#pricing" className="home-link16">
+                Free 
+              </a>
             </div>
           </div>
           <div className="home-list2"></div>
           <div className="home-list3">
             <span className="home-header12">Contact</span>
             <div className="home-links2">
-              <span className="home-link13">
-                24 Street 3, Sheraz town, Lahore, 54770
+              <span className="home-link17">
+                24 Street 3, Sheraz town, Lahore 54770
               </span>
               <a
                 href="mailto:contact@template.new?subject=Main"
-                className="home-link14"
+                className="home-link18"
               >
                 info@quranconnect.online
               </a>
-              <a href="tel:(004) 234 - 5678" className="home-link15">
+              <a href="tel:(004) 234 - 5678" className="home-link19">
                 (+92) 321 8180319
               </a>
             </div>
