@@ -12,8 +12,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Medica template</title>
-        <meta property="og:title" content="Medica template" />
+        <title>Quran connect</title>
+        <meta property="og:title" content="Quran connect" />
       </Helmet>
       <div data-modal="practices" className="home-modal">
         <div className="home-practices">
