@@ -424,27 +424,27 @@ const Home = (props) => {
             <Doctor
               text="My son has been a part of the Quran Connect community for a while, and I'm so pleased with the progress he's making. We started with the free trial, and it was a no-brainer to continue. The instructors are fantastic, and the flexible scheduling allows him to keep up with his studies alongside schoolwork. This platform has truly connected my son with the Quran in a meaningful way."
               heading="Emma from USA"
-              heading1="⭐⭐⭐⭐⭐"
+              heading1="★★★★★"
               rootClassName="doctor-root-class-name"
             ></Doctor>
             <Doctor
               text="I wanted my kids to have a strong foundation in our faith, and Quran Connect has been a great help. We gave the three-day free trial a shot, and we were pleasantly surprised. The teachers here are so patient and supportive. My children have learned a lot and have even made friends with other kids from different parts of the world. It's been a fantastic experience for us all."
               heading="Fatima from Spain"
-              heading1="⭐⭐⭐⭐⭐"
+              heading1="★★★★☆"
               image_src="/Doctors/doctor-2-200h.png"
               rootClassName="doctor-root-class-name2"
             ></Doctor>
             <Doctor
               text="We were initially hesitant, but the free trial eased our concerns. Now, our children look forward to their Quranic lessons. The courses are well-structured, and the global community aspect is something we didn't expect. We're glad we found this platform to nurture our kids' spiritual growth."
               heading="Muhammad Ali from kuwait"
-              heading1="⭐⭐⭐⭐⭐"
+              heading1="★★★★☆"
               image_src="/Doctors/doctor-3-200h.png"
               rootClassName="doctor-root-class-name1"
             ></Doctor>
             <Doctor
               text=" I can't thank Quran Connect enough for the wonderful experience my daughter has had! She's been using the platform for a few months now, and it's been amazing to see her enthusiasm for Quranic studies grow. We tried out the three-day free trial, and it was such a relief to find a place where she feels comfortable and engaged while learning about our faith."
               heading="Dr Ayesha from London "
-              heading1="⭐⭐⭐⭐"
+              heading1="★★★★★"
               image_src="/Doctors/doctor-4-200h.png"
               rootClassName="doctor-root-class-name3"
             ></Doctor>
@@ -581,28 +581,31 @@ const Home = (props) => {
               <span>for second sibling</span>
             </span>
             <a href="#book" className="home-link10 button">
-              DEAL 3
+              <span>
+                <span>DEAL 4</span>
+                <br></br>
+              </span>
             </a>
           </div>
           <div className="home-pricing-card4">
-            <span className="home-text089">5 days/week</span>
+            <span className="home-text092">5 days/week</span>
             <div className="home-container10">
-              <span className="home-text090">
+              <span className="home-text093">
                 <span>$</span>
                 <span></span>
               </span>
-              <span className="home-text093">74</span>
-              <span className="home-text094">
+              <span className="home-text096">74</span>
+              <span className="home-text097">
                 <span>/ monthly</span>
               </span>
             </div>
-            <span className="home-text096">
-              <span className="home-text097">60$/Month</span>
+            <span className="home-text099">
+              <span className="home-text100">60$/Month</span>
               <span> for second sibling</span>
             </span>
             <a href="#book" className="home-link11 button">
               <span>
-                <span>DEAL 4</span>
+                <span>DEAL 5</span>
                 <br></br>
               </span>
             </a>
@@ -617,7 +620,7 @@ const Home = (props) => {
               src="/external/image-removebg-preview.svg"
               className="home-image13"
             />
-            <p className="home-text102">
+            <p className="home-text105">
               Connect with us and let&apos;s explore the beauty of the Quran
               together.
             </p>
@@ -703,7 +706,7 @@ const Home = (props) => {
           </span>
         </div>
       </div>
-      <div>
+      <div className="home-modal1">
         <Script
           html={`<script>
 const modalOpen = document.querySelectorAll('[data-open]');
@@ -726,7 +729,7 @@ modalClose.forEach(button => {
 `}
         ></Script>
       </div>
-      <div>
+      <div className="home-symptoms">
         <Script
           html={`<script>
 const dataLetters = document.querySelectorAll("[data-letter]");
@@ -819,7 +822,7 @@ const showResults = () => {
 `}
         ></Script>
       </div>
-      <div>
+      <div className="home-doctors1">
         <Script
           html={`<script>
 function scroll(direction) {

@@ -30,17 +30,6 @@
   max-width: 385px;
   line-height: 24px;
 }
-.practice-link {
-  color: var(--dl-color-gray-black);
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  text-decoration: none;
-}
-.practice-image1 {
-  width: 12px;
-  object-fit: cover;
-}
 @media(max-width: 767px) {
   .practice-practice {
     padding-top: var(--dl-space-space-oneandhalfunits);

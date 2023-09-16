@@ -874,8 +874,7 @@
   font-weight: 600;
 }
 .home-div {
-  width: 693px;
-  height: 762px;
+  display: contents;
 }
 .home-form {
   gap: var(--dl-space-space-fourunits);
@@ -1226,17 +1225,13 @@
   min-height: 450px;
   transition: 0.3s;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-threeunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-threeunits);
   background-color: var(--dl-color-gray-white);
 }
 .home-pricing-card4:hover {
   transform: scale(1.02);
 }
-.home-text089 {
+.home-text092 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -1248,27 +1243,27 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.home-text090 {
+.home-text093 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text093 {
+.home-text096 {
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text094 {
+.home-text097 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text096 {
+.home-text099 {
   color: rgb(0, 0, 0);
   font-size: 20px;
   text-transform: capitalize;
 }
-.home-text097 {
+.home-text100 {
   font-weight: 700;
 }
 .home-link11 {
@@ -1312,7 +1307,7 @@
   width: 165px;
   object-fit: cover;
 }
-.home-text102 {
+.home-text105 {
   color: rgb(255, 255, 255);
   font-size: 14px;
   line-height: 21px;
@@ -1468,6 +1463,15 @@
 .home-copyright5 {
   color: rgb(255, 255, 255);
   font-size: 12px;
+}
+.home-modal1 {
+  display: contents;
+}
+.home-symptoms {
+  display: contents;
+}
+.home-doctors1 {
+  display: contents;
 }
 @media(max-width: 991px) {
   .home-hero {
@@ -1793,7 +1797,7 @@
   .home-image13 {
     width: 110px;
   }
-  .home-text102 {
+  .home-text105 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -1823,6 +1827,9 @@
   }
   .home-content {
     padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-heading07 {
+    margin-left: var(--dl-space-space-twounits);
   }
   .home-header07 {
     width: auto;
